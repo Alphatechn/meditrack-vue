@@ -7,7 +7,9 @@ import vue from '@vitejs/plugin-vue'
 export default defineConfig({
   plugins: [
     vue(),
+    
   ],
+  base:'https://alphatechn.github.io/meditrack-vue',
   build: { chunkSizeWarningLimit: 10000, },
   resolve: {
     alias: {
